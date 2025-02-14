@@ -6,3 +6,13 @@ This repo comprises OSCAL catalog for the end-to-end demo. The OSCAL catalog is 
 The full catalog can be obtained from [CIS Controls OSCAL Repository](https://www.cisecurity.org/insights/blog/introducing-the-cis-controls-oscal-repository).
 
 The [demo overview](https://github.com/oscal-compass/e2e-demo).
+
+##### Notes
+
+1. profiles/cis-v8/profile.json is hand crafted
+2. profiles/cis-v8/profile.json has no set-parameters
+
+##### ToDo
+
+1. Add set-parameters?
+2. Rectify automation
