@@ -13,7 +13,7 @@
         "include-controls": [
           {
             "with-ids": [
-              "cis-5",
+              "cisc-5",
               "cisc-5.1",
               "cisc-5.2",
               "cisc-5.3",
