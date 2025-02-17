@@ -1,7 +1,7 @@
 #!/bin/bash
 
 export COMMIT_TITLE="chore: Profiles automatic update."
-export COMMIT_BODY="Sync profiles with ocp-oscal-profiles repo"
+export COMMIT_BODY="Sync profiles with ocp-oscal-ssp repo"
 git config --global user.email "automation@example.com"
 git config --global user.name "AutomationBot" 
 cd ocp-oscal-ssp
@@ -18,7 +18,7 @@ else
      echo "Nothing to commit" 
   else
      git commit -m "$COMMIT_TITLE"
-     remote=https://$GITHUB_TOKEN@github.com/oscal-compass/e2e-demo-cac-profile-cis
+     remote=https://$GITHUB_TOKEN@github.com/oscal-compass/e2e-demo-cac-ssp-cis
      git push -u "$remote" "profiles_autoupdate_$GITHUB_RUN_ID"
      echo $COMMIT_BODY
      gh pr create -t "$COMMIT_TITLE" -b "$COMMIT_BODY" -B "develop" -H "profiles_autoupdate_$GITHUB_RUN_ID" 
