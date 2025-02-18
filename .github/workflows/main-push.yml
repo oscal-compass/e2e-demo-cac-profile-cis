@@ -78,7 +78,7 @@ jobs:
     steps:
     - uses: tukasz/direct-merge-action@master
       with:
-        GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         source-branch: main
         target-branch: develop
         commit-message: "chore: Merge back version tags and changelog into develop."
