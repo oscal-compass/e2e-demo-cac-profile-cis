@@ -13,36 +13,16 @@
         "include-controls": [
           {
             "with-ids": [
-              "cisc-5",
-              "cisc-5.1",
+              "cisc-3.3",
+              "cisc-4.1",
+              "cisc-4.8",
               "cisc-5.2",
-              "cisc-5.3",
-              "cisc-5.4",
-              "cisc-5.5",
-              "cisc-5.6"
+              "cisc-6.2",
+              "cisc-8.5"
             ]
           }
         ]
       }
-    ],
-    "modify": {
-      "alters": [
-        {
-          "control-id": "cisc-5.1",
-          "adds": [
-            {
-              "position": "ending",
-              "parts": [
-                {
-                  "id": "cisc-5.1_my_guidance",
-                  "name": "my_guidance",
-                  "prose": "Test guidance"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
+    ]
   }
 }
