@@ -27,3 +27,6 @@ Establish and maintain an inventory of all accounts managed in the enterprise. T
 <!-- Subparts may be added with nested hash levels of the form ### My Subpart Name -->
 <!-- underneath the parent ## Control or ## Part being added -->
 <!-- See https://oscal-compass.github.io/compliance-trestle/tutorials/ssp_profile_catalog_authoring/ssp_profile_catalog_authoring for guidance. -->
+
+## Control my_guidance
+Test guidance
