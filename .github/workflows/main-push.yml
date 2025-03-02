@@ -64,8 +64,8 @@ jobs:
     - name: Clone downstream repo
       uses: actions/checkout@v2
       with:
-        repository: oscal-compass/e2e-demo-cac-ssp
-        path: './e2e-demo-cac-ssp'
+        repository: oscal-compass/e2e-demo-cac-ssp-cis
+        path: './e2e-demo-cac-ssp-cis'
         token: ${{ secrets.PUSH_TOKEN }}
         fetch-depth: 0
     - name: Update ssp
