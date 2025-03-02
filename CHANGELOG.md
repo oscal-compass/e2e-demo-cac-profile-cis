@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.2.3 (2025-03-02)
+### Fix
+* Test creating a release ([`022ac61`](https://github.com/oscal-compass/e2e-demo-cac-profile-cis/commit/022ac61e8036dd7ddab4e244669231904f923f89))
+
 ## v0.2.2 (2025-03-02)
 ### Fix
 * Test create a release ([`eb7b598`](https://github.com/oscal-compass/e2e-demo-cac-profile-cis/commit/eb7b59881e71f918b38ec10dbf1548d5ae2b13b9))
