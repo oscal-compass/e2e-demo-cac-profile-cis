@@ -4,7 +4,7 @@ export COMMIT_TITLE="chore: Profiles automatic update."
 export COMMIT_BODY="Sync profiles with ocp-oscal-profiles repo"
 git config --global user.email "automation@example.com"
 git config --global user.name "AutomationBot" 
-cd ocp-oscal-cd
+cd e2e-demo-cac-cd-cis-rhel9
 git checkout -b "profiles_autoupdate_$GITHUB_RUN_ID"
 cp -r ../catalogs .
 cp -r ../profiles . 
