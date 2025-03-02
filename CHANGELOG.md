@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.2.4 (2025-03-02)
+### Fix
+* Update main-push.yml ([`e956824`](https://github.com/oscal-compass/e2e-demo-cac-profile-cis/commit/e9568248a843aed9c521b5af2ccd2fc20e968bbe))
+
 ## v0.2.3 (2025-03-02)
 ### Fix
 * Test creating a release ([`022ac61`](https://github.com/oscal-compass/e2e-demo-cac-profile-cis/commit/022ac61e8036dd7ddab4e244669231904f923f89))
